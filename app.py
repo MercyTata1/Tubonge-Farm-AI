@@ -22,7 +22,8 @@ class TubongeAI:
         self.output_details = self.model.get_output_details()
 
         self.geolocator = Nominatim(user_agent="tubonge_app")
-        self.gemini_model = genai.GenerativeModel('gemini-pro')
+        self.gemini_model = genai.GenerativeModel("models/gemini-pro")
+
 
         if 'history' not in st.session_state:
             st.session_state.history = []
