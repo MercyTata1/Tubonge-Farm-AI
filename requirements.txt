@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+pillow
+numpy
+geopy
+requests
+beautifulsoup4
+google-generativeai
